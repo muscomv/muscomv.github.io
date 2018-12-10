@@ -1,0 +1,253 @@
+
+*
+{
+	margin:5px;
+	padding:5px;
+}
+
+
+header
+{
+	background-image:url(imgs/old-people.png);
+	height:30vh;
+	background-size:cover;
+	background-position:center;
+}
+
+	
+body
+{
+	background-color:#a0db9b;
+	height:10vh;
+	background-size:cover;
+	background-position:center;
+}
+	
+		
+.main-nav
+{
+float:center;
+list-style:none;
+margin-top:0px
+
+}	
+
+
+.main-nav li
+{
+	display:inline-block;
+}
+
+
+.main-nav li a {
+	color:black;
+	text-decoration:none;
+	padding: 5px 10px;
+	font-family:"Roboto",sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	text-shadow: 1px 1px #fff;
+	
+}	
+.main-nav li.active a {
+border:1px solid white;
+}
+
+
+.main-nav li a:hover 
+{
+border: 1px solid white ;
+}	
+	
+.logo img
+{
+width: 120px;
+height: auto;
+float: left;
+}
+	
+	
+body
+{
+	font-family: monospace;
+	
+}
+
+.row
+{
+	max-width:1200px;
+	margin:auto;
+
+}	
+	
+.row1
+{
+	image align:center;
+
+}	
+.hero
+	{
+	
+	width:1200pix;
+	margin-left:0;
+	margin-top:0;
+	
+	}	
+				
+		
+h1
+{
+	color:white;
+	text-transform:upper-case;
+	font-size:70px;
+	margin-top:5px;
+}
+
+
+.button
+{
+	margin-top:30px;
+	
+}
+
+
+.btn
+{
+	border:1px solid white;
+	padding:10px 30 px;
+	color: white;
+	text-decoration:none;
+	margin-right:5px;
+	font-size:17px;
+	text-transform:upper-case;
+}
+
+.column {
+    float: center;
+    width: 25%;
+    padding: 20px;
+	size:20%;
+}
+
+
+
+.column img:hover {
+    opacity: 1;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+h1 {
+    color: #789eba;
+    font-family: verdana;
+    font-size: 300%;
+}
+
+
+ .p {
+  background-color:"red";
+  color: black;
+  padding: 20px;
+}
+	
+	
+h2 { 
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}	
+	
+p {
+    font-size: 1.5em;
+	display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}	
+
+
+
+#images img {
+  width: 100%;
+  padding-bottom: 4em;
+  position: center;
+  padding:3em;
+}
+
+
+footer
+{
+	background-image:url(banner.jpg);
+	height:10vh;
+	background-size:cover;
+	background-position:center;
+}
+
+
+.column {
+    float: center;
+    width: 50%;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+	size: 15px 25 px;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: right;
+  width: 20%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+
+
